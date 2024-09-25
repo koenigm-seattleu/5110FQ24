@@ -34,7 +34,7 @@ namespace UnitTests.Components
             var result = page.Markup;
 
             // Assert
-            Assert.AreEqual(true, result.Contains("The Quantified Cactus: An Easy Plant Soil Moisture Sensor"));
+            Assert.That(result.Contains("The Quantified Cactus: An Easy Plant Soil Moisture Sensor"), Is.EqualTo(true));
         }
     }
 }
