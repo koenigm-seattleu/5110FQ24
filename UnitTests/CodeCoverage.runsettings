@@ -39,7 +39,9 @@ Included items must then not match any entries in the exclude list to remain inc
                 <ModulePath>.*bunit.*</ModulePath>
                 <ModulePath>.*moq.*</ModulePath>
                 <ModulePath>.*biliweb.views.*</ModulePath>
-              </Exclude>
+				  <ModulePath>.*microsoft.*</ModulePath>
+				  <ModulePath>.*System.*</ModulePath>
+			  </Exclude>
             </ModulePaths>
 
             <!-- Match fully qualified names of functions: -->
